@@ -1,5 +1,5 @@
 # DogsBreedsApp
-The app demonstrates the breeds of different dogs in a shelter. It shows the images, names and descriptions and it provides apple pay for the people who want to donate £5 to the shelter.
+This app demonstrates the breeds of different dogs in a shelter. It shows the images, names and descriptions and it provides apple pay for the people who want to donate £5 to the shelter.
 Its programmed in SWiftUI, using MVVM architecture, with are repository layer. A newtwork call is made using https://api.thedogapi.com/v1/breeds to fetch the data.
 
 APP NAVIGATION
