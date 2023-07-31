@@ -1,0 +1,63 @@
+[
+  {
+    "id" : "v1",
+    "name" : "Australian Cattle Dog",
+    "headline" : "Dog in a kennel admiring nature"
+  },
+  {
+    "id" : "v2",
+    "name" : "Large Munsterlander",
+    "headline" : "Dog barking at are stranger"
+  },
+  {
+    "id" : "v3",
+    "name" : "Shiba",
+    "headline" : "Dog drinking water from a bowel"
+  },
+  {
+    "id" : "v4",
+    "name" : "English Springer",
+    "headline" : "Dog playing hide and seek with its human"
+  },
+  {
+    "id" : "v5",
+    "name" : "Spaniel Sussex",
+    "headline" : "Dog taking a nap"
+  },
+  {
+    "id" : "v7",
+    "name" : "Basenji",
+    "headline" : "Dog walking in a sunflower garden"
+  },
+  {
+    "id" : "v8",
+    "name" : "German Shorthaired Pointer",
+    "headline" : "Dog walking in the yard"
+  },
+  {
+    "id" : "v9",
+    "name" : "Husky",
+    "headline" : "Dogs walking in packs"
+  },
+  {
+    "id" : "v10",
+    "name" : "Rotteweiler",
+    "headline" : "Dog playing in the snow"
+  },
+  {
+    "id" : "v11",
+    "name" : "Turkish Kangal",
+    "headline" : "Dog relaxing outside"
+  },
+  {
+    "id" : "v12",
+    "name" : "Estrela Mountain Dog",
+    "headline" : "Dog in the forest"
+  },
+  {
+    "id" : "v13",
+    "name" : "Hunggarian Kuvasz",
+    "headline" : "Dog playing in the mountains"
+  }
+]
+
