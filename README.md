@@ -15,3 +15,12 @@ APP NAVIGATION
 3) APPLE PAY SCREEN  
 
 ![Screenshot 2023-07-31 at 13 48 52](https://github.com/jordsek/DogsBreedsApp/assets/73316853/3b0f2a98-2b92-4540-b467-0f3449417b2a)
+
+4) GRID SCREEN
+
+<img width="391" alt="Screenshot 2023-07-30 at 15 06 06" src="https://github.com/jordsek/DogsBreedsApp/assets/73316853/6c14a691-8f11-46b1-bad2-bd9464d51397">
+
+5) DETAIL SCREEN
+
+<img width="392" alt="Screenshot 2023-07-30 at 15 09 11" src="https://github.com/jordsek/DogsBreedsApp/assets/73316853/3e1c75eb-35d6-4674-92d1-23f7ed4e8e84">
+
