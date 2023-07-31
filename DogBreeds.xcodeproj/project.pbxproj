@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5115CC92A780120008DE065 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5115CC82A780120008DE065 /* Extensions.swift */; };
 		C523F4582A7403F00091A7B7 /* DogBreedsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523F4572A7403F00091A7B7 /* DogBreedsApp.swift */; };
 		C523F45C2A7403F20091A7B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C523F45B2A7403F20091A7B7 /* Assets.xcassets */; };
 		C523F45F2A7403F20091A7B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C523F45E2A7403F20091A7B7 /* Preview Assets.xcassets */; };
@@ -52,7 +53,6 @@
 		C523F4DA2A7410A20091A7B7 /* VideoPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523F4D92A7410A20091A7B7 /* VideoPlayerHelper.swift */; };
 		C523F4DC2A7411110091A7B7 /* PaymentButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523F4DB2A7411110091A7B7 /* PaymentButtonView.swift */; };
 		C523F4DE2A7411160091A7B7 /* PaymentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523F4DD2A7411160091A7B7 /* PaymentViewModel.swift */; };
-		C523F4E12A741CD20091A7B7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C523F4E02A741CD20091A7B7 /* Extensions.swift */; };
 		C5C4928A2A74830000C9A23D /* NetworkingMork.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C492892A74830000C9A23D /* NetworkingMork.swift */; };
 		C5C4928C2A74830800C9A23D /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C4928B2A74830800C9A23D /* NetworkManagerTests.swift */; };
 		C5C4928E2A74831A00C9A23D /* DogBreedRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C4928D2A74831A00C9A23D /* DogBreedRepositoryTests.swift */; };
@@ -81,6 +81,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C5115CC82A780120008DE065 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../../MacJo/Applications/DogsBreedsApp/DogBreeds/Extensions/Extensions.swift; sourceTree = "<group>"; };
 		C523F4542A7403F00091A7B7 /* DogBreeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogBreeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C523F4572A7403F00091A7B7 /* DogBreedsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogBreedsApp.swift; sourceTree = "<group>"; };
 		C523F45B2A7403F20091A7B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,7 +130,6 @@
 		C523F4D92A7410A20091A7B7 /* VideoPlayerHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerHelper.swift; sourceTree = "<group>"; };
 		C523F4DB2A7411110091A7B7 /* PaymentButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentButtonView.swift; sourceTree = "<group>"; };
 		C523F4DD2A7411160091A7B7 /* PaymentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewModel.swift; sourceTree = "<group>"; };
-		C523F4E02A741CD20091A7B7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = ../../../../../../MacJo/Applications/Profile/DogBreeds/DogBreeds/Extensions/Extensions.swift; sourceTree = "<group>"; };
 		C5C492892A74830000C9A23D /* NetworkingMork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingMork.swift; sourceTree = "<group>"; };
 		C5C4928B2A74830800C9A23D /* NetworkManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 		C5C4928D2A74831A00C9A23D /* DogBreedRepositoryTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DogBreedRepositoryTests.swift; sourceTree = "<group>"; };
@@ -350,7 +350,7 @@
 		C523F4DF2A741CA90091A7B7 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				C523F4E02A741CD20091A7B7 /* Extensions.swift */,
+				C5115CC82A780120008DE065 /* Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -564,7 +564,7 @@
 				C523F4A92A7409200091A7B7 /* BreedModel.swift in Sources */,
 				C523F4AD2A7409400091A7B7 /* Fetchable.swift in Sources */,
 				C523F4C92A7410490091A7B7 /* HomeView.swift in Sources */,
-				C523F4E12A741CD20091A7B7 /* Extensions.swift in Sources */,
+				C5115CC92A780120008DE065 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
