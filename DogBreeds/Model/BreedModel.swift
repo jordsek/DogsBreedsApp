@@ -62,3 +62,5 @@ struct Images: Codable {
     let width, height: Int
     let url: String
 }
+
+
