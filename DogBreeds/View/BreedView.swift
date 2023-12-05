@@ -30,12 +30,14 @@ struct BreedView: View {
                     LazyVGrid(columns: columns, spacing: 20) {
                         ForEach(filteredBreed) { breed in
                             NavigationLink{
-                               BreedDetailView(breed:  Breed(id: 0, weight: Eight(imperial: "", metric: ""), height: Eight(imperial: "", metric: ""), name: breed.name, bredFor: "", breedGroup: BreedGroup.empty, lifeSpan: "", temperament: "", origin: "", referenceImageID: "", image: Images(id: "", width: 0, height: 0, url: breed.image.url), countryCode: CountryCode.us, description: "", history: ""))
+                                BreedDetailView(breed:  Breed(id: 0, weight: Eight(imperial: "", metric: ""), height: Eight(imperial: "", metric: ""), name: breed.name, bredFor: "", breedGroup: BreedGroup.empty, lifeSpan: "", temperament: "", origin: "", referenceImageID: breed.referenceImageID,  countryCode: CountryCode.us, description: breed.description ?? "", history: ""))
                             } label: {
 
                                     VStack {
                                         ZStack(alignment: .bottom){
-                                            RemoteImage(url: breed.image.url)
+    //                                        RemoteImage(url: breed.image.url)
+                                            Image("pap")
+                                                .resizable()
                                                 .cornerRadius(20)
                                                 .frame(width: 180)
                                                 .scaledToFit()

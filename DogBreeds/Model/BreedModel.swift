@@ -16,7 +16,7 @@ struct Breed: Codable, Identifiable {
     let lifeSpan: String
     let temperament, origin: String?
     let referenceImageID: String
-    let image: Images
+   // let image: Images
     let countryCode: CountryCode?
     let description, history: String?
 
@@ -27,7 +27,7 @@ struct Breed: Codable, Identifiable {
         case lifeSpan = "life_span"
         case temperament, origin
         case referenceImageID = "reference_image_id"
-        case image
+      //  case image
         case countryCode = "country_code"
         case description, history
     }
