@@ -6,7 +6,7 @@
 //
 
 import Foundation
-@testable import DogBreed
+@testable import DogBreeds
 
 class FakeBreedRepository: BreedsRepository{
     func getBreeds(url: URL) async throws -> [Breed] {

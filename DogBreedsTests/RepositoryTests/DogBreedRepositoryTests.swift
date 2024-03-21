@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import DogBreed
+@testable import DogBreeds
 final class DogBreedRepositoryTests: XCTestCase {
 
     var fakeNetworkManager: FakeNetworkManager!

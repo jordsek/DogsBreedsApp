@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import DogBreed
+@testable import DogBreeds
 final class NetworkManagerTests: XCTestCase {
 
     override func setUpWithError() throws {

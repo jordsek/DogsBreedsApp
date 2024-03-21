@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import DogBreed
+@testable import DogBreeds
 @MainActor
 final class BreedViewModelTest: XCTestCase {
 

@@ -7,7 +7,7 @@
 
 import Foundation
 
-@testable import DogBreed
+@testable import DogBreeds
 
 class NetworkingMock: Networking {
     static var data: Data?

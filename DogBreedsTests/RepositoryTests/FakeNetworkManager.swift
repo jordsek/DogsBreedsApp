@@ -6,7 +6,7 @@
 //
 
 import Foundation
-@testable import DogBreed
+@testable import DogBreeds
 
 class FakeNetworkManager: Fetchable{
     func getDataFromAPI(url: URL) async throws -> Data {
